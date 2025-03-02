@@ -8,5 +8,7 @@ public class Progam
         Console.WriteLine("Hello, World!");
         Console.WriteLine(new SerchInsertPosition().SearchInsert([1, 3, 5, 6], 4));
         Console.WriteLine(new PalindromeNumber().IsPalindrome(121));
+        var result = new TwoSumNumber().TwoSum([2, 7, 11, 15], 9);
+        Console.WriteLine("[" + string.Join(",", result) + "]");
     }
 }
