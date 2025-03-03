@@ -11,6 +11,6 @@ public class Progam
         //var result = new TwoSumNumber().TwoSum([2, 7, 11, 15], 13);
         //Console.WriteLine($"TwoSumNumber ==> {"[" + string.Join(",", result) + "]"}");
         //Console.WriteLine($"ValidParentheses ==> {new ValidParentheses().IsValid("()[]{}")}");
-        Console.WriteLine($"LenghtOfLastWord ==> {new LenghtOfLastWord().Solution("   fly me   to   the moon  ")}");
+        Console.WriteLine($"LenghtOfLastWord ==> {new LenghtOfLastWord().Solution1("   fly me   to   the moon  ")}");
     }
 }

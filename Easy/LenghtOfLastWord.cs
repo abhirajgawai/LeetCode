@@ -25,11 +25,35 @@ Explanation: The last word is "joyboy" with length 6.
 
 public class LenghtOfLastWord
 {
+
+    //Spliting the string to find length of last word
     public int Solution(string s)
     {
         string[] splitWords = s.Split([' '], StringSplitOptions.RemoveEmptyEntries);
         var lastWord = splitWords.Last();
         return lastWord.Length;
+    }
+
+    //Reverse Transversal
+    public int Solution1(string s)
+    {
+        int length = 0;
+        int i = s.Length - 1;
+
+        // Ignore trailing spaces
+        while (i >= 0 && s[i] == ' ')
+        {
+            i--;
+        }
+
+        //Count the length of the last word
+        while (i >= 0 && s[i] != ' ')
+        {
+            length++;
+            i--;
+        }
+
+        return length;
     }
 }
 
