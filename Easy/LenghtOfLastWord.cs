@@ -40,16 +40,17 @@ public class LenghtOfLastWord
         int length = 0;
         int i = s.Length - 1;
 
-        // Ignore trailing spaces
-        while (i >= 0 && s[i] == ' ')
+        //reverse the loop
+        while (i >= 0)
         {
-            i--;
-        }
-
-        //Count the length of the last word
-        while (i >= 0 && s[i] != ' ')
-        {
-            length++;
+            if (s[i] != ' ')
+            {
+                length++; // Count characters in the last word
+            }
+            else if (length > 0)
+            {
+                break; // Stop when we reach the first space after the last word
+            }
             i--;
         }
 
