@@ -9,6 +9,8 @@ public class SerchInsertPosition
      * Input: nums = [1,3,5,6], target = 2 Output: 1
      * Input: nums = [1,3,5,6], target = 7 Output: 4
      */
+
+    //Binary Search
     public int SearchInsert(int[] nums, int target)
     {
         int left = 0;

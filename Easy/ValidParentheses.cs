@@ -2,9 +2,8 @@
 
 public class ValidParentheses
 {
-    public bool IsValid(string s)
-    {
-        /*
+
+    /*
          Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
          An input string is valid if:
 
@@ -37,6 +36,9 @@ public class ValidParentheses
         Output: true
          */
 
+    //Using Stack
+    public bool IsValid(string s)
+    {
         var stack = new Stack<char>();
         foreach (var c in s)
         {

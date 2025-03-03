@@ -1,5 +1,7 @@
 ﻿namespace LeetCode.Easy;
 
+
+//https://leetcode.com/problems/two-sum/description/
 public class TwoSumNumber
 {
     /* Given an array of integers nums and an integer target, return indices of the two numbers such
@@ -25,6 +27,8 @@ public class TwoSumNumber
         Input: nums = [3,3], target = 6
         Output: [0,1]
      */
+
+    //Brute Force
     public int[] TwoSum(int[] nums, int target)
     {
         // Solution 1

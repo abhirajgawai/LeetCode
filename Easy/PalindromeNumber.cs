@@ -1,5 +1,7 @@
 ﻿namespace LeetCode.Easy;
 
+
+//https://leetcode.com/problems/palindrome-number/description/
 public class PalindromeNumber
 {
     /*
