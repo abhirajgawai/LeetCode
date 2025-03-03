@@ -10,5 +10,6 @@ public class Progam
         Console.WriteLine(new PalindromeNumber().IsPalindrome(121));
         var result = new TwoSumNumber().TwoSum([2, 7, 11, 15], 9);
         Console.WriteLine("[" + string.Join(",", result) + "]");
+        Console.WriteLine(new ValidParentheses().IsValid("()[]{}"));
     }
 }
