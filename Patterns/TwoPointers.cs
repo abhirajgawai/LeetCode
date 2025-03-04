@@ -19,7 +19,6 @@ public class TwoPointers
     // Two Ends Approach - Finding Pair Sum
     public void FindPairSum(int[] arr, int target)
     {
-        Array.Sort(arr);  // Sort array first
         int left = 0;
         int right = arr.Length - 1;
 

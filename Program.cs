@@ -18,8 +18,9 @@ public class Progam
         //Console.WriteLine($"TwoSumNumber ==> {"[" + string.Join(",", result) + "]"}");
         //Console.WriteLine($"ValidParentheses ==> {new ValidParentheses().IsValid("()[]{}")}");
         //Console.WriteLine($"LenghtOfLastWord ==> {new LenghtOfLastWord().Solution1("   fly me   to   the moon  ")}");
-        Console.WriteLine($"RemoveDuplicatesFromSortedArray ==> {new RemoveDuplicatesFromSortedArray().
-            Solution1([0, 0, 1, 1, 1, 2, 2, 3, 3, 4])}");
+        //Console.WriteLine($"RemoveDuplicatesFromSortedArray ==> {new RemoveDuplicatesFromSortedArray().
+        //    Solution1([0, 0, 1, 1, 1, 2, 2, 3, 3, 4])}");
+        Console.WriteLine($"RemoveElement ==> {new RemoveElement().Solution([3, 2, 2, 3], 3)}");
     }
 
     private static void Patterns()
